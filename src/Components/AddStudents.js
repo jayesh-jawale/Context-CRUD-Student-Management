@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState,useContext } from 'react'
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
@@ -44,7 +44,7 @@ export function AddStudents () {
         <TextField label="Enter Batch" variant="outlined" id='batch' name='batch' onChange={(e) => setBatch(e.target.value)}
         />
     
-        <Button type="submit" variant="contained">Add Movie</Button>
+        <Button type="submit" variant="contained">Add Student</Button>
       </form>
     </div>
     )
